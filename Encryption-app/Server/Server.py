@@ -4,7 +4,7 @@ import socket
 import threading
 import ServerUtilities as SU
 
-HOST = "81.154.243.202"
+HOST = "127.0.0.1"
 PORT = 9090
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
